@@ -12,11 +12,11 @@ export default function About() {
             <br className="hidden lg:inline-block" /> This is my portfolio 
           </h1>
           <p className="mb-8 leading-relaxed">
-          iiiiiAs a new developer I am looking first and foremost to be a part of a quality oriented team that prioritizes efficiency and teamwork, where i can acquire new skills and habits from my coworkers. 
+          As a new developer I am looking first and foremost to be a part of a quality oriented team that prioritizes efficiency and teamwork, where i can acquire new skills and habits from my coworkers. 
         I believe mutual respect and understanding is fundamental for any team and I always try to add to this with an open disposition and good humor.   
           </p>
           <p className="mb-8 leading-relaxed">
-           As a person I am detail-oriented, inquisitive and enthusiastic. 
+           I am detail-oriented, inquisitive and enthusiastic. 
            I have a strong foundational knowledge of principals of design and patterns which means that I easily can learn the details of new languages, tools and frameworks. 
            I like to learn new things and always aim to write clean and future proof code in any language.
           </p>
@@ -33,7 +33,7 @@ export default function About() {
             </a>
           </div> */}
         </div>
-        <div className="md:max-w-lg md:w-full md:w-1/2 w-5/6">
+        <div className="md:max-w-md md:w-full w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"

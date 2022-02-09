@@ -2,10 +2,11 @@
 
 const express = require('express');
 const path = require('path');
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3000
 const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../client/build')));
+app.use(express.static('../client/public'));
 
 app.get('/api', (req, res) => {
     res.json({message: 'Welcome to my react-folio!'});

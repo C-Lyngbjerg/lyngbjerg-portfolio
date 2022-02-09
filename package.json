@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
-    "start-dev": "nodemon server/index.js -e html,js,css",
+    "start-dev": "nodemon --watch client/src server/index.js",
     "build": "cd client && npm install && npm run build"
   },
   "keywords": [],
