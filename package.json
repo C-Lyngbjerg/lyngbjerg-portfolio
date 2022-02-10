@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
-    "start-dev": "nodemon --watch client/src server/index.js",
+    "start-dev": "nodemon --watch client/src node server/index.js && cd client && npm run build",
     "build": "cd client && npm install && npm run build"
   },
   "keywords": [],
@@ -15,7 +15,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.15",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "prettier": "^2.5.1"
   },
   "engines": {
     "node": "15.8.0"

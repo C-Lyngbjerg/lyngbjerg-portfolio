@@ -1,24 +1,30 @@
 // src/components/About.js
 
-import React from "react";
+import React from 'react'
 
 export default function About() {
-    return (
-      <section id="about">
+  return (
+    <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, My name is Christoffer Bjerge.
-            <br className="hidden lg:inline-block" /> This is my portfolio 
+            Hi, My name is Christoffer.
+            <br className="hidden lg:inline-block" /> This is my portfolio
           </h1>
           <p className="mb-8 leading-relaxed">
-          As a new developer I am looking first and foremost to be a part of a quality oriented team that prioritizes efficiency and teamwork, where i can acquire new skills and habits from my coworkers. 
-        I believe mutual respect and understanding is fundamental for any team and I always try to add to this with an open disposition and good humor.   
+            As a new developer I am looking first and foremost to be a part of a
+            quality oriented team that prioritizes efficiency and teamwork,
+            where i can acquire new skills and habits from my coworkers. I
+            believe mutual respect and understanding is fundamental for any team
+            and I always try to add to this with an open disposition and good
+            humor.
           </p>
           <p className="mb-8 leading-relaxed">
-           I am detail-oriented, inquisitive and enthusiastic. 
-           I have a strong foundational knowledge of principals of design and patterns which means that I easily can learn the details of new languages, tools and frameworks. 
-           I like to learn new things and always aim to write clean and future proof code in any language.
+            I am detail-oriented, inquisitive and enthusiastic. I have a strong
+            foundational knowledge of principals of design and patterns which
+            means that I easily can learn the details of new languages, tools
+            and frameworks. I like to learn new things and always aim to write
+            clean and future proof code in any language.
           </p>
           {/* <div className="flex justify-center">
             <a
@@ -42,7 +48,7 @@ export default function About() {
         </div>
       </div>
     </section>
-        /* <p>
+    /* <p>
         
         As a new developer I am looking first and foremost to be a part of a quality oriented team that prioritizes efficiency and teamwork, where i can acquire new skills and habits from my coworkers. 
         I believe mutual respect and understanding is fundamental for any team and I always try to add to this with an open disposition and good humor.  
@@ -51,6 +57,6 @@ export default function About() {
         During both my education and internship I have had the privilege of working with a large set of different people from different background from whom I have learned a lot.
         
         // I have solid experience with Java, SQL, full stack JavaScript as well UP and Scrum to name a few. From my internship at a smaller startup I bring practical experience with TypeScript, PostgreSQL, React, MongoDB, Docker and more. I have a strong foundational knowledge of principals of design and patterns which means that I easily can learn the details of new languages, tools and frameworks. I like to learn new things and always aim to write clean and future proof code in any language.
-        </p>*/ 
-      );
+        </p>*/
+  )
 }
