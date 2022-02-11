@@ -1,13 +1,15 @@
 // src/components/Projects.js
 
 import React from 'react'
+import { BookOpenIcon } from '@heroicons/react/solid'
+
 import { educationList } from '../data'
 
 export default function Education() {
   return (
     <section id="education">
-      <div className="container px-5 py-10 mx-auto text-center">
-        {/* <UsersIcon className="w-10 inline-block mb-4" /> */}
+      <div className="container px-5 py-20 mx-auto text-center">
+        <BookOpenIcon className="w-10 inline-block mb-4" />
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
             Education

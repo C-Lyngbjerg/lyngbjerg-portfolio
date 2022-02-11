@@ -17,11 +17,27 @@ export const skills = [
   },
   {
     title: 'React',
-    text: 'I have some practical experience using this framework from my internship at Debbie, where i developed a new service for the company alongside my fellow interns and the employees',
+    text: 'I have some practical experience using this framework from my internship at Debbie, where i developed a new service for the company alongside my fellow interns and employees.',
   },
   {
     title: 'Mobile App Development',
-    text: 'During my time at KEA i have learned how to develop apps both for iOS using Swift and Android using Java',
+    text: 'During my time at KEA i have learned how to develop apps both for iOS using Swift and Android using Java.',
+  },
+  {
+    title: 'Agile Development',
+    text: 'I have worked with different Development models like Scrum and XP during my time at school and internship after which i have a solid theoretical and practical understanding of development methodologies. I also have experience working with UP.',
+  },
+  {
+    title: 'Docker',
+    text: 'During my internship we used Docker as a part of the development cycle to setup our databases in our test environment and i have experience hosting apps using Docker on different platforms.',
+  },
+  {
+    title: 'Object Oriented & Functional programming',
+    text: 'I have solid experience programming object oriented throughout my time at KEA and quite a bit experience incorporating functional principles in my programming especially when writing Node code.',
+  },
+  {
+    title: 'Git',
+    text: 'As most developers I have a lot of experience using git for version control of my projects both in education and internship milieus. I am continually trying to increase my skills at using git effectively.',
   },
 ]
 
@@ -49,5 +65,20 @@ export const educationList = [
     date: '2009-2012',
     description:
       'STX Education with a focus on languages (English and spanish) and social studies',
+  },
+]
+
+export const testimonials = [
+  {
+    quote:
+      '"Christoffer har nu gennemført 10 ugers praktik i Debbie, som er gennemført meget tilfredsstillende. Christoffer har i praktikforløbet været kastet på dybt vand og har skulle forstå et en meget stor eksisterende kodebase for at kunne udvikle modulet Debbie Sandbox. Udfordringen blev overvundet rigtig flot og vi i Debbie har været enormt tilfredse med hvad der er blevet lavet af arbejde hvorfor det også ryger i produktion til vores kundevendte produkter."',
+    name: 'Emil Brandt, CEO',
+    company: 'Debbie',
+  },
+  {
+    quote:
+      '"Jeg har haft fornøjelsen at undervise Christoffer Lyngbjerg Bjerge i Fullstack web udvikling med Node.js. Under hans praktik har han vist en stor motivation for at lære. Til afslutningensprojektet viste Christoffer kompetencer ikke blot som kodeskriver, men som en person der kan tage en idé fra dens inception, analysere og planlægge den grundigt for succesfuldt at få den bragt i verden. "',
+    name: 'Anders Latif, Teacher',
+    company: 'Københavns Erhvervsakademi',
   },
 ]

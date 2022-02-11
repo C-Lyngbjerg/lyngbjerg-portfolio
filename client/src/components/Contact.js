@@ -1,4 +1,5 @@
 // src/components/Contact.js
+import { PhoneIcon, GlobeIcon, AtSymbolIcon } from '@heroicons/react/solid'
 
 import React from 'react'
 
@@ -19,15 +20,36 @@ export default function Contact() {
               up a conversation.
             </p>
           </div>
-          <p className="text-right leading-relaxed mb-5">+45 60 11 07 16</p>
-          <p className="text-right mb-5">C.lyngbjerg@gmail.com</p>
-          <a
-            href="https://www.linkedin.com/in/christoffer-bjerge/"
-            className="text-right leading-relaxed mb-5"
-          >
-            LinkedIn
-          </a>
-          <p className="text-right mb-5">København N</p>
+          <div class="flex justify-end">
+            <div>
+              <p className="text-right leading-relaxed mb-5">+45 60 11 07 16</p>
+            </div>
+            <div>
+              <PhoneIcon className="block w-8 text-right-gray-500 mb-2" />
+            </div>
+          </div>
+          <div class="flex justify-end">
+            <div>
+              <p className="text-right mb-5">C.lyngbjerg@gmail.com</p>
+            </div>
+            <div>
+              <AtSymbolIcon className="block w-8 text-right-gray-500 mb-2" />
+            </div>
+          </div>
+
+          <div class="flex justify-end">
+            <div>
+              <a
+                href="https://www.linkedin.com/in/christoffer-bjerge/"
+                className="text-right leading-relaxed mb-5"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <div>
+              <GlobeIcon className="block w-8 text-right-gray-500 mb-4" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
